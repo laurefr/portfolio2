@@ -1,0 +1,43 @@
+
+html,
+
+  body {
+    height: 100%;
+      background-image:url("../Pictures/codecomputer.jpg");
+    max-height: 100%;
+    max-width: 100%;
+      
+    background-size: cover;
+    width: 1280px;
+    height: 720px;
+    min-width: 700px;
+    max-width: 1500px;
+}
+body {
+    padding-top: 90px; /* Required padding for .navbar-fixed-top. Remove if using .navbar-static-top. Change if height of navigation changes. */
+}
+
+.img-portfolio {
+    margin-bottom: 30px;
+}
+
+.img-hover:hover {
+    opacity: 0.8;
+}
+
+
+/* Responsive Styles */
+
+@media(max-width:991px) {
+    .customer-img,
+    .img-related {
+        margin-bottom: 30px;
+    }
+}
+
+@media(max-width:767px) {
+    .img-portfolio {
+        margin-bottom: 15px;
+    }
+
+
